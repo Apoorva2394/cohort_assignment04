@@ -1,0 +1,81 @@
+@font-face {
+    font-family: sun;
+    src: url(./CarltineMedium-MVnzn.ttf);
+}
+
+*body {
+   
+    height: 100%;
+    width: auto;
+}
+
+
+.main .nav{
+    display: flex;
+    gap: 25px;
+    height: 20px;
+    padding-left: 15% ;
+    width: 100%;
+    color: black;
+
+    align-items: center
+    ;
+}
+.main .nav h4{
+    font-weight: 200;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.hero img{
+    margin-top: 10px;
+    height: 700px;
+    width: 100%;
+    padding: 0%;
+    background-size: contain;
+    background-position: top;
+    position: relative;
+}
+
+.hero_text{
+    display: flex;
+    font-size: 25px;
+    flex-direction: column;
+    align-items: center;
+    color:white ;
+    position: absolute;
+    left: 37%;
+    bottom: 70%;
+    margin-bottom: 3px;
+}
+
+.hero_text h1,h4{
+    margin: 0%;
+}
+
+.hero .buttons{
+    padding: 10px 20px;
+}
+.hero .buttons .b2{
+    margin-top: 10px;
+    border: 2px solid#0076DF;
+    color: #0076DF;
+    background-color: black;
+    width: 50px;
+    padding: 6px 10px ;
+    border-radius: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.hero .buttons .b1{
+    background-color: #0076DF;
+    color: white;
+    border: none;
+    width: 90px;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
